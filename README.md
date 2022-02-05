@@ -1,4 +1,4 @@
-The Ultimate Todo App
+# The Ultimate Todo App
 
 This app has been developed with React, TypeScript, Redux, PostgreSQL and Docker.
 

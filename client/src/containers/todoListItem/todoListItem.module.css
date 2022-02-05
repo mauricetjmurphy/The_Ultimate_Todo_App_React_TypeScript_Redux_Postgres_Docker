@@ -1,0 +1,54 @@
+.listItemContainer {
+  height: 50px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  border: 1px solid #e2d8d8;
+  border-top: none;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+}
+
+.iconContainer {
+  display: flex;
+}
+
+.delButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2.5px;
+  color: #e20d0d;
+  border: none;
+  background: #fff;
+  cursor: pointer;
+}
+
+.delButton svg {
+  width: 18px;
+  height: 18px;
+}
+
+.updateButton {
+  border: none;
+  background: #fff;
+  margin-right: 2.5px;
+  cursor: pointer;
+}
+
+.updateButton svg {
+  width: 16px;
+  height: 16px;
+}
+
+.checkbox {
+  margin-right: 15px;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+.todoListContainer {
+  width: 500px;
+  min-height: 300px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+header {
+  height: 150px;
+  background: #5a89ea;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li:first-child {
+  border-top-left-radius: 5px !important;
+  border-top-right-radius: 5px !important;
+  border-top: 1px solid #e2d8d8;
+}
+
+ul li:last-child {
+  border-bottom-left-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
